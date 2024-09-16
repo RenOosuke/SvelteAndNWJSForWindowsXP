@@ -8,30 +8,7 @@ This is a template for creating easily software for Windows XP with NW.js 15.4 (
 
 2. Folder pattern: 
 
---- Main Folder
-    --- FolderContaining this repository
-    |
-    |
-    --- NW_Cache (place inside NW.js 0.15.4 sdk and normal)
-    |
-    |
-    --- BuiltApp (Generated from BuildApp.js)
-        --- WhateverYourAppIsCalled (Configured in BuildApp.js)
-        |    --- package.nw (nw.exe automatically opens the content of this folder as if it's a project)
-        |       --- package.json
-        |       --- node_modules
-        |       --- fonts
-        |       --- images
-        |       --- public
-        |           --- index.html
-        |           --- favicon.png
-        |           --- build
-        |               --- bundle.css
-        |               --- bundle.css.map
-        |               --- bundle.js
-        |               --- bundle.js.map
-        |
-            ... content of the nw(version).zip
+![image](https://github.com/user-attachments/assets/718e9736-2b23-4245-8b38-20e8c2fc4c19)
 
 
 ### When you want to write components - modify them in the src folder, when you want to use pure .js scripts, write them in /public folder and then include them in index.html
